@@ -63,7 +63,7 @@ INTERNAL_IPS = [
     # ...
 ]
 
-ROOT_URLCONF = 'resume.urls'
+ROOT_URLCONF = 'resume_dj.urls'
 
 TEMPLATES = [
     {
@@ -81,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'resume.wsgi.application'
+WSGI_APPLICATION = 'resume_dj.wsgi.application'
 
 
 # Database
