@@ -1,7 +1,5 @@
 from django.shortcuts import render
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
+from django.http import HttpResponse
 
-@api_view(['GET'])
-def say_hello(request):
-    return Response({'message': 'Hello, world!'})
+def load_base(request):
+    return render(request, 'base.html')
