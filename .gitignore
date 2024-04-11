@@ -1,0 +1,6 @@
+resume_dj/
+.conda/
+resume/.vscode/
+/resume/Pipfile
+/resume/Pipfile.lock
+lib64
