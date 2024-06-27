@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.12",
+    "@mui/material": "^5.15.15",
     "@react-three/drei": "^9.105.3",
     "@react-three/fiber": "^8.16.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^1.1.0",
     "three": "^0.163.0",
     "web-vitals": "^2.1.4"
   },
@@ -39,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "r3f-pack": "^2.8.0"
+    "r3f-pack": "^2.8.0",
+    "tailwindcss": "^3.4.3"
   }
 }
