@@ -1,19 +1,11 @@
 import React from "react";
-import Tabs from "./Tabs";
- 
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 const App = () => {
-    const tabData = [
-        { label: "About Me"},
-        { label: "Contact Me"},
-        { label: "Learn More"},
-    ];
+  return( <div>
 
-    return(
-        <div className="App">
-            <Tabs tabs={tabData} /> 
-        </div>
-    );
-}
-
+      <Navbar />
+    </div>
+  );
+}; 
 export default App;
